@@ -1,12 +1,7 @@
-import java.lang.reflect.Array;
-import java.util.function.Supplier;
-
 public class FixedSizeList {
 
     private Object[] items;
-
     private int index = 0;
-
     private int capacity;
 
     public FixedSizeList(int capacity){

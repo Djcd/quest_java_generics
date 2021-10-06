@@ -1,6 +1,3 @@
-import java.lang.reflect.Array;
-import java.util.function.Supplier;
-
 public class FixedSizeListGeneric<T> {
 
     private Object[] items;
